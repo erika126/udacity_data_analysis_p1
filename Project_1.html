@@ -172,46 +172,30 @@ div#notebook {
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c"># 1. The independent variable is the word condition (congruent vs. incongruent) and the dependent variable</span>
-<span class="c"># is the amount of time taken to perform the test</span>
-</pre></div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>1.The independent variable is the word condition (congruent vs. incongruent) and the dependent variable
+is the amount of time taken to perform the test</p>
 
 </div>
 </div>
 </div>
-
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c"># 2. An appropriate null hypothesis is that the condition has no impact on the </span>
-<span class="c">#time required for the test, i.e. congruent vs. incongruent does not affect the time taken. </span>
-<span class="c">#In this case, the alternate hypothesis would be that the condition does have an impact on </span>
-<span class="c">#the time taken during the test. The null hypothesis could also be stated as: &quot;the mean time</span>
-<span class="c">#required to perform the stroop task under the congruent condition is the same as the mean time</span>
-<span class="c">#required to perform it under the incongruent condition.&quot; With this wording, the alternate</span>
-<span class="c">#hypothesis would be that the mean time taken under the two conditions is not the same.</span>
-
-<span class="c">#Alternatively, we could use directional hypotheses and say the null hypothesis is that the</span>
-<span class="c">#the time taken given the congruent condition is more than the incongruent condition and the </span>
-<span class="c">#alternate hypothesis is that the congruent condition takes less time than the incongruent</span>
-<span class="c">#condition.</span>
-
-<span class="c">#We could do a dependent T-test on the difference in times between the two </span>
-<span class="c">#data conditions: congruent vs. incongruent.</span>
-</pre></div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>2.An appropriate null hypothesis is that the condition has no impact on the 
+mean time required for the test, i.e. the mean time required by the population under the congruent condition is the same as the mean time required by the population under the incongruent condition.</p>
+<p>In this case, the alternate hypothesis would be that the mean time taken under the two conditions is not the same.</p>
+<p>We could do a dependent T-test on the difference in times between the two 
+data conditions: congruent vs. incongruent. The T-test makes sense because we don't know any population statistics a priori, we only have our samples. Because the hypothesis does not state a direction, we will use a two-tailed test- we simply want to show that the condition has an impact on time required, regardless of whether it's slower or faster.</p>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -299,23 +283,20 @@ div#notebook {
 </div>
 
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c">#We can see that the mean time taken in the congruent</span>
-<span class="c">#condition is less than that in the incongruent condition</span>
-<span class="c">#and there is less variability in the congruent condition</span>
-<span class="c">#(i.e. the STD is lower). The open question now is whether</span>
-<span class="c">#the mean time in the congruent condition is significantly lower</span>
-<span class="c">#than the mean time in the incongruent condition</span>
-</pre></div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We can see that the mean time taken in the congruent
+condition is less than that in the incongruent condition
+and there is less variability in the congruent condition
+(i.e. the STD is lower). The open question now is whether
+the mean time in the congruent condition is significantly lower
+than the mean time in the incongruent condition</p>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
